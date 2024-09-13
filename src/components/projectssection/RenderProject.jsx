@@ -4,9 +4,11 @@ export const renderProject = (project) => (
             src={project.image}
             alt={project.name}
             className={`absolute h-auto opacity-0 transition-opacity duration-300 ${
-                (project.name === 'File System Analyzer Project' || project.name === 'Portfolio')
+                project.name === 'File System Analyzer Project' || project.name === 'Portfolio'
                     ? 'w-[12vw] left-[10vw]'
-                    : 'w-[30vw] left-[2vw]'
+                    : project.name === 'Premier League Full-Stack Project'
+                        ? 'w-[12vw] left-[10vw] rounded-full'
+                        : 'w-[30vw] left-[2vw]'
             }`}
         />
         <a
@@ -26,4 +28,4 @@ export const renderProject = (project) => (
             {project.name}
         </a>
     </div>
-);;
+);

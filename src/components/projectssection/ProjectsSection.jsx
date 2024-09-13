@@ -43,7 +43,7 @@ export default function ProjectsSection() {
         {
             name: 'Premier League Full-Stack Project',
             link: '/projects/inprogress1',
-            image: '/cafe.png',
+            image: '/premier-league.jpg',
         },
     ];
 
