@@ -1,38 +1,31 @@
 export default function Description() {
   return (
     <>
-      <div className="max-w-[1000px] mx-auto text-center mb-10">
-        <h1 className="text-[15vw]">HELLO!</h1>
+      <div
+        className="max-w-[1000px] mx-auto text-center mb-10 px-4"
+        style={{ fontFamily: "'Cormorant Garamond', system-ui" }}
+      >
+        <h1 className="text-[10vw] md:text-[8rem] lg:text-[10rem]">HELLO!</h1>
       </div>
 
-      <div className="max-w-[500px] mx-auto text-center mb-20">
-        <p className="text-[4vw] leading-[4rem] ">
-          I'M A STUDENT
-          <br />
-          FOCUSED ON
-          <br />
-          FULL-STACK DEVELOPMENT
-        </p>
-      </div>
-
-      <div className="max-w-[800px] mx-auto text-center mb-10">
-        <p className="text-[3vw] leading-[3.5rem]">
-          I am a dedicated fourth-year Computer Engineering student at the
-          Polytechnic University of Timișoara, specializing in
-          <br />
-          full-stack web development.
+      <div
+        className="lg:max-w-[800px] sm:max-w-[500px]  mx-auto text-center mb-10 px-4"
+        style={{ fontFamily: "'Montserrat', sans-serif" }}
+      >
+        <p className="text-[3vw] md:text-[2vw] lg:text-[2.5vw] leading-[1.5] font-normal">
+          I’m Vlad-Andrei Mocan, a Computer Engineering student at the
+          Polytechnic University of Timișoara.
           <br />
           <br />
-          Through personal projects, I’ve gained hands-on experience in both
-          frontend and backend development, where I've worked with technologies
-          like React for building dynamic interfaces and Spring Boot, ASP.NET
-          Core, and Node.js for backend services. I've also utilized databases
-          like MySQL and PostgreSQL to manage data effectively.
+          I’m passionate about full-stack web development, building responsive
+          and user-friendly applications using React for the frontend and
+          backend technologies like Spring Boot and Node.js.
           <br />
           <br />
-          My focus on user experience, clean code, and scalable architecture
-          drives my approach to creating responsive, engaging, and efficient web
-          applications.
+          I’m constantly learning and working on improving my coding skills,
+          focusing on clean, efficient code and scalable solutions. While I
+          still have a lot to learn, each project brings new challenges that
+          help me grow as a developer.
         </p>
       </div>
     </>

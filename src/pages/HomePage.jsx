@@ -1,5 +1,5 @@
-import HeroSection from "../components/herosection/HeroSection.jsx";
-import ProjectsSection from "../components/projectssection/ProjectsSection.jsx";
+import HeroSection from "../components/heroSection/HeroSection.jsx";
+import ProjectsSection from "../components/projectsSection/ProjectsSection.jsx";
 import Description from "../components/description/Description.jsx";
 
 export default function HomePage() {

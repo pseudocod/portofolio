@@ -8,6 +8,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Cormorant Garamond", system-ui;
+  /* font-family: "Playfair Display", system-ui; */
+  font-family: "Playfair Display", system-ui;
   background-color: #f8f8f8;
   color: #353535;
 }
